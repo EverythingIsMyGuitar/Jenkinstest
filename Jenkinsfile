@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // GitHubからソースコードをクローン
-                git branch: 'main', url: 'https://github.com/あなたのユーザ名/sample-project.git'
+                git branch: 'master', url: 'https://github.com/EverythingIsMyGuitar/Jenkinstest.git'
             }
         }
 
