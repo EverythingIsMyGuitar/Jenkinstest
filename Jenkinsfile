@@ -15,6 +15,7 @@ pipeline {
                 // 例：Pythonスクリプト実行
                 bat 'C:\\Users\\tomok\\AppData\\Local\\Programs\\Python\\Python313\\python.exe pytest.py'
             }
+            //自動ビルドのテストだよ
         }
     }
 }
