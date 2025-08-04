@@ -13,7 +13,7 @@ pipeline {
             steps {
                 // ここでビルドや実行をする
                 // 例：Pythonスクリプト実行
-                bat 'python3 hello.py'
+                bat 'python pytest.py'
             }
         }
     }
